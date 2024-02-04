@@ -46,7 +46,7 @@ dotenv.config()
 export const startCeremony = functions
     .region("europe-west1")
     .runWith({
-        memory: "512MB"
+        memory: "1GB"
     })
     .pubsub.schedule(`every 30 minutes`)
     .onRun(async () => {

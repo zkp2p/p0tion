@@ -374,6 +374,9 @@ export const downloadCeremonyArtifact = async (
     const spinner = customSpinner(`Preparing for downloading the contribution...`, `clock`)
     spinner.start()
 
+    console.log("im here")
+    console.log(bucketName, storagePath)
+
     // Request pre-signed url to make GET download request.
     const getPreSignedUrl = await generateGetObjectPreSignedUrl(cloudFunctions, bucketName, storagePath)
 
