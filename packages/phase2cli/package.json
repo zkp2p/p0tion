@@ -1,7 +1,7 @@
 {
     "name": "@zkp2p/zkp2p-ceremony-cli",
     "type": "module",
-    "version": "0.0.1-rc1",
+    "version": "0.0.1-rc2",
     "description": "All-in-one interactive command-line for interfacing with zkSNARK Phase 2 Trusted Setup ceremonies",
     "repository": "git@github.com:privacy-scaling-explorations/p0tion.git",
     "homepage": "https://github.com/privacy-scaling-explorations/p0tion",

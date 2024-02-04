@@ -673,7 +673,7 @@ const setup = async (cmd: { template?: string; auth?: string }) => {
     // Prepare data.
     let wannaGenerateNewZkey = true // New zKey generation flag.
     let wannaUsePreDownloadedPoT = false // Local PoT file usage flag.
-    let bucketName: string = "" // The name of the bucket.
+    let bucketName: string = "zk-p2p-ph2-ceremony" // The name of the bucket.
 
     // Ask for confirmation.
     const { confirmation } = await askForConfirmation("Do you want to continue with the ceremony setup?", "Yes", "No")
