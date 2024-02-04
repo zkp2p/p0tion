@@ -1,5 +1,5 @@
 {
-    "name": "zkp2p-trusted-setup",
+    "name": "@zkp2p/p0tion",
     "description": "MPC Phase 2 suite of tools for conducting zkSNARKs trusted setup ceremonies",
     "repository": "git@github.com:privacy-scaling-explorations/p0tion.git",
     "homepage": "https://github.com/privacy-scaling-explorations/p0tion",

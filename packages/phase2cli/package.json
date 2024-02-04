@@ -1,5 +1,5 @@
 {
-    "name": "@zkp2p/trusted-setup-cli",
+    "name": "@zkp2p/zkp2p-ceremony-cli",
     "type": "module",
     "version": "0.0.1-rc1",
     "description": "All-in-one interactive command-line for interfacing with zkSNARK Phase 2 Trusted Setup ceremonies",
@@ -70,7 +70,7 @@
         "@octokit/auth-oauth-app": "^5.0.5",
         "@octokit/auth-oauth-device": "^4.0.4",
         "@octokit/request": "^6.2.3",
-        "@p0tion/actions": "1.1.0",
+        "@p0tion/actions": "^1.1.0",
         "@semaphore-protocol/identity": "^3.15.1",
         "blakejs": "^1.2.1",
         "boxen": "^7.1.0",

@@ -5,6 +5,7 @@ import { httpsCallable } from "firebase/functions"
 import { groth16 } from "snarkjs"
 import path from "path"
 import { getAuth, signInWithCustomToken } from "firebase/auth"
+import prompts from "prompts"
 import theme from "../lib/theme.js"
 import { customSpinner } from "../lib/utils.js"
 import { VerifiedBandadaResponse } from "../types/index.js"
@@ -17,7 +18,6 @@ import {
     setLocalAccessToken,
     setLocalBandadaIdentity
 } from "../lib/localConfigs.js"
-import prompts from "prompts"
 
 const { BANDADA_DASHBOARD_URL, BANDADA_GROUP_ID } = process.env
 
@@ -89,7 +89,7 @@ const authBandada = async () => {
 
     console.log(
         `\n${theme.symbols.warning} You can always log out by running the ${theme.text.bold(
-            `phase2cli logout`
+            `zkp2p-ceremony-cli logout`
         )} command`
     )
 

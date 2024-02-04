@@ -198,7 +198,7 @@ const auth = async () => {
     // Console more context for the user.
     console.log(
         `\n${theme.symbols.warning} You can always log out by running the ${theme.text.bold(
-            `phase2cli logout`
+            `zkp2p-ceremony-cli logout`
         )} command`
     )
 
