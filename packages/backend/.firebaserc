@@ -1,6 +1,6 @@
 {
   "projects": {
-    "dev": "demo-p0tion",
-    "prod": "p0tion-ci-environment"
+    "dev": "zkp2p-demo",
+    "prod": "zkp2p-phase2cli"
   }
 }

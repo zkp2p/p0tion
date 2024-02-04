@@ -4679,7 +4679,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@p0tion/actions@^1.1.1, @p0tion/actions@workspace:packages/actions":
+"@p0tion/actions@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@p0tion/actions@npm:1.1.0"
+  dependencies:
+    "@adobe/node-fetch-retry": ^2.2.0
+    "@aws-sdk/client-ec2": ^3.358.0
+    "@aws-sdk/client-s3": ^3.329.0
+    "@aws-sdk/client-ssm": ^3.358.0
+    "@octokit/auth-oauth-device": ^4.0.4
+    "@types/winston": ^2.4.4
+    blakejs: ^1.2.1
+    chai: ^4.3.7
+    chai-as-promised: ^7.1.1
+    dotenv: ^16.0.3
+    ethers: ^5.7.2
+    ffjavascript: ^0.2.57
+    firebase: ^9.21.0
+    firebase-admin: ^11.8.0
+    googleapis: ^118.0.0
+    rimraf: ^5.0.0
+    rollup: ^3.21.6
+    snarkjs: ^0.6.11
+    solc: ^0.8.19
+  checksum: c0a5738ddab8e39effe5e3fd403f32552be6d43292eb2fa1e719262d13fafa20510a914ddc2dedf5dcecd055b7639c48eba27c57f180cf7446704a342d625754
+  languageName: node
+  linkType: hard
+
+"@p0tion/actions@workspace:packages/actions":
   version: 0.0.0-use.local
   resolution: "@p0tion/actions@workspace:packages/actions"
   dependencies:
@@ -4730,7 +4757,7 @@ __metadata:
     "@aws-sdk/s3-request-presigner": ^3.329.0
     "@bandada/api-sdk": ^1.0.0-beta.1
     "@firebase/rules-unit-testing": ^2.0.7
-    "@p0tion/actions": ^1.1.1
+    "@p0tion/actions": 1.1.0
     "@types/rollup-plugin-auto-external": ^2.0.2
     "@types/uuid": ^9.0.1
     blakejs: ^1.2.1
@@ -4752,64 +4779,6 @@ __metadata:
     typescript: ^5.0.4
     uuid: ^9.0.0
     winston: ^3.8.2
-  languageName: unknown
-  linkType: soft
-
-"@p0tion/phase2cli@workspace:packages/phase2cli":
-  version: 0.0.0-use.local
-  resolution: "@p0tion/phase2cli@workspace:packages/phase2cli"
-  dependencies:
-    "@adobe/node-fetch-retry": ^2.2.0
-    "@aws-sdk/client-s3": ^3.329.0
-    "@bandada/api-sdk": ^1.0.0-beta.1
-    "@octokit/auth-oauth-app": ^5.0.5
-    "@octokit/auth-oauth-device": ^4.0.4
-    "@octokit/request": ^6.2.3
-    "@p0tion/actions": ^1.1.1
-    "@semaphore-protocol/identity": ^3.15.1
-    "@types/clear": ^0.1.2
-    "@types/cli-progress": ^3.11.0
-    "@types/figlet": ^1.5.6
-    "@types/mime-types": ^2.1.1
-    "@types/node-emoji": ^1.8.2
-    "@types/node-fetch": ^2.6.3
-    "@types/ora": ^3.2.0
-    "@types/prompts": ^2.4.4
-    "@types/rollup-plugin-auto-external": ^2.0.2
-    "@types/winston": ^2.4.4
-    blakejs: ^1.2.1
-    boxen: ^7.1.0
-    chalk: ^5.2.0
-    clear: ^0.1.0
-    cli-progress: ^3.12.0
-    clipboardy: ^3.0.0
-    commander: ^10.0.1
-    conf: ^11.0.1
-    dotenv: ^16.0.3
-    ethers: ^6.9.0
-    figlet: ^1.6.0
-    firebase: ^9.21.0
-    log-symbols: ^5.1.0
-    mime-types: ^2.1.35
-    node-disk-info: ^1.3.0
-    node-emoji: ^1.11.0
-    node-fetch: ^3.3.1
-    open: ^9.1.0
-    ora: ^6.3.0
-    prompts: ^2.4.2
-    rimraf: ^5.0.0
-    rollup: ^3.21.6
-    rollup-plugin-auto-external: ^2.0.0
-    rollup-plugin-cleanup: ^3.2.1
-    rollup-plugin-typescript2: ^0.34.1
-    snarkjs: 0.7.3
-    solc: ^0.8.19
-    timer-node: ^5.0.7
-    ts-node: ^10.9.1
-    typescript: ^5.0.4
-    winston: ^3.8.2
-  bin:
-    phase2cli: dist/index.js
   languageName: unknown
   linkType: soft
 
@@ -6542,6 +6511,64 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@zkp2p/phase2cli@workspace:packages/phase2cli":
+  version: 0.0.0-use.local
+  resolution: "@zkp2p/phase2cli@workspace:packages/phase2cli"
+  dependencies:
+    "@adobe/node-fetch-retry": ^2.2.0
+    "@aws-sdk/client-s3": ^3.329.0
+    "@bandada/api-sdk": ^1.0.0-beta.1
+    "@octokit/auth-oauth-app": ^5.0.5
+    "@octokit/auth-oauth-device": ^4.0.4
+    "@octokit/request": ^6.2.3
+    "@p0tion/actions": 1.1.0
+    "@semaphore-protocol/identity": ^3.15.1
+    "@types/clear": ^0.1.2
+    "@types/cli-progress": ^3.11.0
+    "@types/figlet": ^1.5.6
+    "@types/mime-types": ^2.1.1
+    "@types/node-emoji": ^1.8.2
+    "@types/node-fetch": ^2.6.3
+    "@types/ora": ^3.2.0
+    "@types/prompts": ^2.4.4
+    "@types/rollup-plugin-auto-external": ^2.0.2
+    "@types/winston": ^2.4.4
+    blakejs: ^1.2.1
+    boxen: ^7.1.0
+    chalk: ^5.2.0
+    clear: ^0.1.0
+    cli-progress: ^3.12.0
+    clipboardy: ^3.0.0
+    commander: ^10.0.1
+    conf: ^11.0.1
+    dotenv: ^16.0.3
+    ethers: ^6.9.0
+    figlet: ^1.6.0
+    firebase: ^9.21.0
+    log-symbols: ^5.1.0
+    mime-types: ^2.1.35
+    node-disk-info: ^1.3.0
+    node-emoji: ^1.11.0
+    node-fetch: ^3.3.1
+    open: ^9.1.0
+    ora: ^6.3.0
+    prompts: ^2.4.2
+    rimraf: ^5.0.0
+    rollup: ^3.21.6
+    rollup-plugin-auto-external: ^2.0.0
+    rollup-plugin-cleanup: ^3.2.1
+    rollup-plugin-typescript2: ^0.34.1
+    snarkjs: 0.7.3
+    solc: ^0.8.19
+    timer-node: ^5.0.7
+    ts-node: ^10.9.1
+    typescript: ^5.0.4
+    winston: ^3.8.2
+  bin:
+    phase2cli: dist/index.js
+  languageName: unknown
+  linkType: soft
+
 "JSONStream@npm:^1.3.5":
   version: 1.3.5
   resolution: "JSONStream@npm:1.3.5"
@@ -7984,6 +8011,17 @@ __metadata:
     inherits: ^2.0.1
     safe-buffer: ^5.0.1
   checksum: 47d3568dbc17431a339bad1fe7dff83ac0891be8206911ace3d3b818fc695f376df809bea406e759cdea07fff4b454fa25f1013e648851bec790c1d75763032e
+  languageName: node
+  linkType: hard
+
+"circom_runtime@npm:0.1.22":
+  version: 0.1.22
+  resolution: "circom_runtime@npm:0.1.22"
+  dependencies:
+    ffjavascript: 0.2.57
+  bin:
+    calcwit: calcwit.js
+  checksum: bf7b2e9f74cd7704ebc45ce686d4df49e58ed09114070a98beaab90e5ff7784d1943468ea3315bd4db638e6a76cda24e8b610aa2cd50be56adb4391e20469366
   languageName: node
   linkType: hard
 
@@ -10181,6 +10219,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ffjavascript@npm:0.2.57":
+  version: 0.2.57
+  resolution: "ffjavascript@npm:0.2.57"
+  dependencies:
+    wasmbuilder: 0.0.16
+    wasmcurves: 0.2.0
+    web-worker: ^1.2.0
+  checksum: 8f3e87b3e2739c607dfc2ef8cb36d92202da57b1323987cca09ade378c584a946b9d784607ee5e2193a2de6200afdc254c19f72f79145aa55d9a8688f83f6708
+  languageName: node
+  linkType: hard
+
 "ffjavascript@npm:0.2.60":
   version: 0.2.60
   resolution: "ffjavascript@npm:0.2.60"
@@ -10192,7 +10241,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ffjavascript@npm:0.2.63, ffjavascript@npm:^0.2.48":
+"ffjavascript@npm:0.2.63, ffjavascript@npm:^0.2.48, ffjavascript@npm:^0.2.57":
   version: 0.2.63
   resolution: "ffjavascript@npm:0.2.63"
   dependencies:
@@ -15697,6 +15746,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"r1csfile@npm:0.0.45":
+  version: 0.0.45
+  resolution: "r1csfile@npm:0.0.45"
+  dependencies:
+    "@iden3/bigarray": 0.0.2
+    "@iden3/binfileutils": 0.0.11
+    fastfile: 0.0.20
+    ffjavascript: 0.2.57
+  checksum: ae2d7ab3f2c37640aea2b4f45753d1f2258f5d904a51d7aaff67c32a931c3e90d22d257e8f10752044fa36b3ac31516f60e503f858913a625015b9b05575ba47
+  languageName: node
+  linkType: hard
+
 "r1csfile@npm:0.0.47":
   version: 0.0.47
   resolution: "r1csfile@npm:0.0.47"
@@ -16744,6 +16805,26 @@ __metadata:
   bin:
     snarkjs: build/cli.cjs
   checksum: 6a8818c0f23b1c213b3296b4a253ceb2f26accfd0259274230550dfce010e4c6d1f5ecaaea1d84ff9b9da54c42dc94869f820838af4e33ffd4e09d95e986d9ee
+  languageName: node
+  linkType: hard
+
+"snarkjs@npm:^0.6.11":
+  version: 0.6.11
+  resolution: "snarkjs@npm:0.6.11"
+  dependencies:
+    "@iden3/binfileutils": 0.0.11
+    bfj: ^7.0.2
+    blake2b-wasm: ^2.4.0
+    circom_runtime: 0.1.22
+    ejs: ^3.1.6
+    fastfile: 0.0.20
+    ffjavascript: 0.2.57
+    js-sha3: ^0.8.0
+    logplease: ^1.2.15
+    r1csfile: 0.0.45
+  bin:
+    snarkjs: build/cli.cjs
+  checksum: 692508b6f8048b6879975844cae4b9a6713713e20fec488ebd21a4b224b7e0318f6aba59ce06d332728d184148c943fa04e3a49e0af173d325011f506e42363e
   languageName: node
   linkType: hard
 
@@ -17821,7 +17902,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.6.4 || ^5.2.2#~builtin<compat/typescript>, typescript@patch:typescript@^5.0.4#~builtin<compat/typescript>":
   version: 5.3.3
-  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=77c9e2"
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=f3b441"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -18172,6 +18253,15 @@ __metadata:
   version: 0.0.16
   resolution: "wasmbuilder@npm:0.0.16"
   checksum: a9c8ef4a0a770f71865dc7a75bc22e5204227ff6d70bed90e57f7df5939a013d4177947ea4c2c3fdfe6761b92d975908ea846c463ee635d1c95e1a3c434b7ee1
+  languageName: node
+  linkType: hard
+
+"wasmcurves@npm:0.2.0":
+  version: 0.2.0
+  resolution: "wasmcurves@npm:0.2.0"
+  dependencies:
+    wasmbuilder: 0.0.16
+  checksum: 0769ca2d0c2f99619436f86dcab16294d94cc0c8a114b0c5e6ed71df49625a6ad35000011fee57471b7647838eeb75f631e74b200996ac2513e8ca0c47e5b8d0
   languageName: node
   linkType: hard
 
